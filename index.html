@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTwin - Your Digital Health Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">🤖 HealthTwin</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#demo">Demo</a>
+                <a href="#avatars">Avatars</a>
+                <button class="btn btn--primary btn--sm">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Meet Your HealthTwin<br>Your Digital Health Companion</h1>
+                    <p class="hero-subtitle">Stop generic tracking. Start living healthier with an AI companion that adapts to YOUR student life.</p>
+                    <button class="btn btn--primary btn--lg hero-cta">Get Your HealthTwin</button>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar energized" id="hero-avatar">
+                            <div class="avatar-body">
+                                <div class="avatar-head"></div>
+                                <div class="avatar-torso"></div>
+                                <div class="avatar-arms"></div>
+                            </div>
+                            <div class="avatar-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Why HealthTwin is Different</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Context-Aware Plans</h3>
+                    <p>Exam Mode vs Weekend Mode - your twin knows your schedule</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>2-Minute Micro-Habits</h3>
+                    <p>Posture checks, hydration pings, smart snack swaps</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Youth-Friendly Gamification</h3>
+                    <p>Compete with friends, earn points, get AI-generated memes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👤</div>
+                    <h3>Digital Twin Dashboard</h3>
+                    <p>Watch your avatar glow when healthy, dim when you need care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2 class="section-title">See HealthTwin in Action</h2>
+            <div class="demo-container">
+                <div class="demo-steps">
+                    <div class="step-button active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-text">Log In & Set Schedule</span>
+                    </div>
+                    <div class="step-button" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-text">Auto-Adjusts to Your Mode</span>
+                    </div>
+                    <div class="step-button" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-text">Quick Daily Check-in</span>
+                    </div>
+                    <div class="step-button" data-step="4">
+                        <span class="step-number">4</span>
+                        <span class="step-text">HealthTwin Updates</span>
+                    </div>
+                    <div class="step-button" data-step="5">
+                        <span class="step-number">5</span>
+                        <span class="step-text">Social Challenges</span>
+                    </div>
+                </div>
+                <div class="demo-phone">
+                    <div class="phone-container">
+                        <div class="phone-screen">
+                            <div class="demo-interface active" data-interface="1">
+                                <h3>Set Your Schedule</h3>
+                                <div class="form-group">
+                                    <label>Classes Today:</label>
+                                    <div class="time-slots">
+                                        <span class="time-slot">9:00 AM - Math</span>
+                                        <span class="time-slot">11:00 AM - Physics</span>
+                                        <span class="time-slot">2:00 PM - Chemistry</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Stress Level:</label>
+                                    <div class="stress-slider">
+                                        <input type="range" min="1" max="10" value="6">
+                                        <span class="stress-label">6/10 📚</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-interface" data-interface="2">
+                                <div class="notification">
+                                    <h3>🎯 Exam Mode Activated!</h3>
+                                    <p>Suggested brain foods:</p>
+                                    <ul>
+                                        <li>🥜 Almonds at 10:30 AM</li>
+                                        <li>🍌 Banana before Chemistry</li>
+                                        <li>💧 Hydration reminder every 2 hours</li>
+                                    </ul>
+                                    <p>Stress break scheduled at 3:30 PM</p>
+                                </div>
+                            </div>
+                            <div class="demo-interface" data-interface="3">
+                                <h3>Quick Check-in</h3>
+                                <div class="checkin-sliders">
+                                    <div class="slider-group">
+                                        <label>Energy ⚡</label>
+                                        <input type="range" min="1" max="10" value="7">
+                                    </div>
+                                    <div class="slider-group">
+                                        <label>Mood 😊</label>
+                                        <input type="range" min="1" max="10" value="8">
+                                    </div>
+                                    <div class="slider-group">
+                                        <label>Sleep 😴</label>
+                                        <input type="range" min="1" max="10" value="6">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-interface" data-interface="4">
+                                <h3>Your HealthTwin</h3>
+                                <div class="avatar-demo">
+                                    <div class="avatar energized" id="demo-avatar">
+                                        <div class="avatar-body">
+                                            <div class="avatar-head"></div>
+                                            <div class="avatar-torso"></div>
+                                            <div class="avatar-arms"></div>
+                                        </div>
+                                        <div class="avatar-glow"></div>
+                                    </div>
+                                    <p class="avatar-status">Great habits! You're glowing! ✨</p>
+                                </div>
+                            </div>
+                            <div class="demo-interface" data-interface="5">
+                                <h3>Friend Challenge</h3>
+                                <div class="leaderboard">
+                                    <div class="leader-item">
+                                        <div class="mini-avatar energized"></div>
+                                        <span>You</span>
+                                        <span class="points">2,840 pts</span>
+                                    </div>
+                                    <div class="leader-item">
+                                        <div class="mini-avatar tired"></div>
+                                        <span>Sarah M.</span>
+                                        <span class="points">2,720 pts</span>
+                                    </div>
+                                    <div class="leader-item">
+                                        <div class="mini-avatar stressed"></div>
+                                        <span>Alex K.</span>
+                                        <span class="points">2,650 pts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avatar Showcase Section -->
+    <section class="avatars" id="avatars">
+        <div class="container">
+            <h2 class="section-title">Your HealthTwin Evolves With You</h2>
+            <div class="avatar-showcase">
+                <div class="avatar-state">
+                    <div class="avatar energized">
+                        <div class="avatar-body">
+                            <div class="avatar-head"></div>
+                            <div class="avatar-torso"></div>
+                            <div class="avatar-arms"></div>
+                        </div>
+                        <div class="avatar-glow"></div>
+                    </div>
+                    <h3>Energized</h3>
+                    <p>Great habits keep you glowing!</p>
+                </div>
+                <div class="avatar-state">
+                    <div class="avatar tired">
+                        <div class="avatar-body">
+                            <div class="avatar-head"></div>
+                            <div class="avatar-torso"></div>
+                            <div class="avatar-arms"></div>
+                        </div>
+                        <div class="avatar-glow"></div>
+                    </div>
+                    <h3>Tired</h3>
+                    <p>Time for some self-care</p>
+                </div>
+                <div class="avatar-state">
+                    <div class="avatar stressed">
+                        <div class="avatar-body">
+                            <div class="avatar-head"></div>
+                            <div class="avatar-torso"></div>
+                            <div class="avatar-arms"></div>
+                        </div>
+                        <div class="avatar-glow"></div>
+                    </div>
+                    <h3>Stressed</h3>
+                    <p>Let's find some balance</p>
+                </div>
+                <div class="avatar-state">
+                    <div class="avatar leveled-up">
+                        <div class="avatar-body">
+                            <div class="avatar-head"></div>
+                            <div class="avatar-torso"></div>
+                            <div class="avatar-arms"></div>
+                        </div>
+                        <div class="avatar-glow rainbow"></div>
+                    </div>
+                    <h3>Leveled Up</h3>
+                    <p>Crushing your health goals!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Features Section -->
+    <section class="social">
+        <div class="container">
+            <h2 class="section-title">Level Up Together</h2>
+            <div class="social-content">
+                <div class="social-feed">
+                    <h3>Recent Activity</h3>
+                    <div class="feed-item">
+                        <div class="mini-avatar energized"></div>
+                        <div class="feed-text">
+                            <strong>Sarah M.</strong> just hit a 7-day hydration streak! 💧
+                        </div>
+                    </div>
+                    <div class="feed-item">
+                        <div class="challenge-icon">🏆</div>
+                        <div class="feed-text">
+                            <strong>Morning stretch challenge</strong> starts tomorrow!<br>
+                            <span class="participants">23 participants joined</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="global-leaderboard">
+                    <h3>Top Performers This Week</h3>
+                    <div class="leader-item">
+                        <span class="rank">#1</span>
+                        <div class="mini-avatar energized"></div>
+                        <span>Alex K.</span>
+                        <span class="points">2,840 pts</span>
+                    </div>
+                    <div class="leader-item">
+                        <span class="rank">#2</span>
+                        <div class="mini-avatar energized"></div>
+                        <span>Sarah M.</span>
+                        <span class="points">2,720 pts</span>
+                    </div>
+                    <div class="leader-item">
+                        <span class="rank">#3</span>
+                        <div class="mini-avatar tired"></div>
+                        <span>You</span>
+                        <span class="points">2,650 pts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to Meet Your HealthTwin?</h2>
+            <p class="cta-subtitle">Join 10,000+ students living healthier</p>
+            <form class="signup-form" id="signup-form">
+                <div class="form-row">
+                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn--primary btn--lg">Get Early Access</button>
+                </div>
+            </form>
+            <p class="signup-note">No spam, just health tips and early access to new features!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">🤖 HealthTwin</span>
+                    <p>Your digital health companion for student life</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HealthTwin. Made for students, by students.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
